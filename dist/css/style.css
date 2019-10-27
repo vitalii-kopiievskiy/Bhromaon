@@ -3932,6 +3932,8 @@ body {
   padding-left: -2px !important;
   text-decoration: none;
   display: block; }
+  .footer-title:hover {
+    text-decoration: underline; }
   @media screen and (max-width: 575px) {
     .footer-title {
       padding-top: 20px; } }
