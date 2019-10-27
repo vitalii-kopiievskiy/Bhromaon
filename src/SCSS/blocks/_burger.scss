@@ -1,0 +1,125 @@
+#checkbox {
+    visibility: hidden;
+
+}
+
+.burger {
+    &__button {
+        & {
+            display: flex;
+            align-items: center;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            width: 42px;
+            height: 42px;
+            cursor: pointer;
+            z-index: 2;
+            background-color: #5474fd;
+            border: 3px solid #5474fd;
+
+        }
+
+        &>span::before {
+            content: '';
+            top: -10px;
+        }
+
+        &>span::after {
+            content: '';
+            top: 10px;
+        }
+    }
+
+    &-nav__list {
+        display: block;
+        position: absolute;
+        visibility: hidden;
+        left: -100%;
+        width: 100%;
+        height: 200px;
+        margin: 0;
+        list-style: none;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.9);
+        left: 0;
+        z-index: 1;
+    }
+}
+
+
+.burger .burger__button>span,
+.burger__button>span::before,
+.burger__button>span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    z-index: 2;
+
+}
+
+#checkbox:checked {
+    &~.burger-nav__list {
+        visibility: visible;
+        left: 0;
+    }
+
+    &~.burger {
+        &__button>span {
+            & {
+                transform: rotate(135deg);
+            }
+
+            &::before {
+                top: 0;
+                transform: rotate(-90deg);
+
+            }
+
+            &::after {
+                top: 0;
+                transform: rotate(-90deg);
+
+            }
+        }
+
+        &-nav__list {
+            visibility: visible;
+        }
+    }
+}
+
+
+
+.burger-nav {
+    &__list {
+        display: flex;
+        flex-direction: column;
+
+        background-color: #5474fd;
+        color: white;
+
+    }
+
+    &__link {
+        font-family: 'Aleo', serif;
+        color: #262626;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 50px;
+        text-decoration: none;
+        color: white;
+    }
+
+
+
+    &__link:hover {
+        display: block;
+        width: 100%;
+        background-color: white;
+        color: #5474fd;
+        transition: all .2s cubic-bezier(.08, .81, .87, .71);
+    }
+}
