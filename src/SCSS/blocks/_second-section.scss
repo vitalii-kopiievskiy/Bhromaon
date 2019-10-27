@@ -13,11 +13,26 @@
         height: 371px;
         background-color: rgba(35, 35, 35, 0.9);
         font-family: 'Josefin Sans', sans-serif;
+
+        @media screen and (max-width: 575px) {
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+
     }
 
     &__content {
         margin-left: 29px;
         margin-top: 50px;
+
+        @media screen and (max-width: 575px) {
+            margin-left: 0px;
+            margin-top: 0px;
+            padding-right: -15px;
+
+
+        }
     }
 
     &-name {
@@ -26,6 +41,12 @@
         font-weight: 400;
         line-height: 26px;
         padding-top: 47px;
+
+        @media screen and (max-width: 575px) {
+            padding-top: 10px;
+
+
+        }
     }
 
     &-title {
@@ -44,7 +65,7 @@
         font-size: 16px;
         font-weight: 400;
         line-height: 26px;
-        padding-top: 18px;
+        padding-top: 23px;
     }
 
     &__link {
@@ -52,6 +73,15 @@
         width: 225px;
         height: 60px;
         background-color: #5474fd;
+
+        @media screen and (max-width: 575px) {
+            width: 100%;
+            margin-top: 15px;
+
+
+
+        }
+
 
     }
 

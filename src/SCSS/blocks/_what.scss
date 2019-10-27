@@ -7,10 +7,33 @@
         background-color: #333;
         height: 284px;
         margin-left: -30px;
-
         padding-left: 59px;
         padding-top: 1px;
         margin-bottom: 248px;
+
+        @media screen and (max-width: 1199px) {
+            padding-left: 20px;
+            margin-bottom: 50px;
+
+
+        }
+
+        @media screen and (max-width: 767px) {
+            padding-left: 20px;
+            margin-bottom: 50px;
+            margin-left: 0px;
+
+        }
+
+        @media screen and (max-width: 575px) {
+            padding-left: 30px;
+            padding-right: 10px;
+            height: 100%;
+            margin-right: 0px;
+            margin-left: 0px;
+            text-align: justify;
+        }
+
 
 
     }
@@ -22,13 +45,31 @@
         font-size: 36px;
         font-weight: 400;
         line-height: 26px;
-        margin-top: 123px;
+        margin-top: 125px;
         letter-spacing: 0.5px;
+
+        @media screen and (max-width: 1199px) {
+            margin-top: 50px;
+        }
+
+        @media screen and (max-width: 575px) {
+            line-height: 32px;
+            margin-top: 10px;
+        }
+
+
     }
 
     &__aside {
         margin-top: 98px;
-        // margin-bottom: 200px;
+
+        @media screen and (max-width: 1199px) {
+            margin-top: 50px;
+        }
+
+        @media screen and (max-width: 1199px) {
+            margin-top: 10px;
+        }
     }
 
 
@@ -44,6 +85,15 @@
         margin-bottom: 38px;
         margin-top: 48px;
 
+        @media screen and (max-width: 1199px) {
+            margin-bottom: 23px;
+            margin-top: 23px;
+        }
+
+        @media screen and (max-width: 575px) {
+            text-align: center;
+        }
+
     }
 
     &-quote {
@@ -51,8 +101,15 @@
         font-family: 'Josefin Sans', sans-serif;
         font-size: 16px;
         font-weight: 400;
-        line-height: 26px;
+        line-height: 27px;
         text-indent: 1.8em;
+
+        @media screen and (max-width: 1199px) {
+            margin-right: 10px;
+
+        }
+
+
 
     }
 
@@ -63,6 +120,30 @@
         line-height: 0px !important;
         font-size: 20px !important;
         position: absolute;
+
+
+
+
+    }
+
+    &__image {
+        @media screen and (max-width: 767px) {
+            position: relative;
+        }
+
+        @media screen and (max-width: 575px) {
+            position: relative;
+
+        }
+
+    }
+
+    &-image {
+        @media screen and (max-width: 767px) {
+            width: 100%;
+
+
+        }
 
     }
 

@@ -11,9 +11,13 @@
         line-height: 26px;
         text-transform: uppercase;
         text-align: center;
-        padding-top: 71px;
+        padding-top: 74px;
         letter-spacing: 2.4px;
         padding-left: -2px !important;
+
+        @media screen and (max-width: 575px) {
+            padding-top: 20px;
+        }
     }
 
     &-subtitle {
@@ -30,6 +34,14 @@
     &__links {
         padding-top: 10px;
         margin-left: 30px;
+
+        @media screen and (max-width: 1199px) {
+            margin-left: 0px;
+        }
+
+        @media screen and (max-width: 575px) {
+            text-align: center;
+        }
 
 
     }
