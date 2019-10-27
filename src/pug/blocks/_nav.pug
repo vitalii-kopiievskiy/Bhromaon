@@ -2,20 +2,19 @@ mixin nav
     .nav
         .container
             .nav__headline
-                .row
+                .row.d-xl-flex.justify-content-xl-between.align-items-xl-between
                     .col-xl-2.col-lg-2.col-md-2.col-sm-2.col-2
-                        .nav__title.d-flex.align-items-center
+                        .nav__title.d-xl-flex.align-items-xl-center
                             h2.nav-title Bhromaon
-                    .col-xl-6.offset-xl-4.col-lg-6.offset-lg-4.d-lg-block.d-none
-                        .nav__menu.menu
-                            ul.nav-menu.d-flex.justify-content-end.align-items-center
-                                a(href="#who").menu__item.d-flex.align-items-center
-                                    li Who We Are
-                                a(href="#what").menu__item.d-flex.align-items-center    
-                                    li What We Do
-                                a(href="#travel").menu__item.d-flex.align-items-center
-                                    li Travel With Us
-                                a(href="#contact").menu__item.d-flex.align-items-center    
-                                    li Contact Us
+                    .col-xl-6.offset-xl-4.col-lg-7.offset-lg-3.d-lg-block.d-none
+                        .nav__menu.menu.d-xl-flex
+                                .menu__item
+                                    a(href="#who").menu-item.d-xl-flex.align-items-xl-center Who We Are
+                                .menu__item   
+                                    a(href="#what").menu-item.d-xl-flex.align-items-xl-center What We Do
+                                .menu__item
+                                    a(href="#travel").menu-item.d-xl-flex.align-items-xl-center Travel With Us
+                                .menu__item
+                                    a(href="#contact").menu-item.menu-item-last.d-xl-flex.align-items-xl-center Contact Us
 
                     
