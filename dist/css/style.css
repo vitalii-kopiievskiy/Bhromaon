@@ -3495,6 +3495,7 @@ body {
 
 .nav {
   font-family: 'Josefin Sans', sans-serif;
+  background-color: #5474fd;
   height: 80px; }
 
 .nav__title {
