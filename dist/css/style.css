@@ -3221,6 +3221,9 @@ body {
 .header {
   font-family: 'Josefin Sans', sans-serif;
   background: url("../../images/header/bg_header.png") 50% 50%/cover no-repeat; }
+  @media screen and (max-width: 575px) {
+    .header {
+      background: url("../../images/header/bg_header.png") 33% 50%/cover no-repeat; } }
 
 .headline-title {
   margin-top: 293px;
@@ -3361,7 +3364,7 @@ body {
   text-decoration: none;
   color: white;
   display: block;
-  padding-bottom: 126px; }
+  padding-bottom: 122px; }
   .scroll__link:hover + .scroll-icon:before {
     position: absolute;
     top: 28px;
@@ -3553,7 +3556,7 @@ body {
   line-height: 26px; }
   @media screen and (max-width: 1199px) {
     .who-title {
-      font-size: 2.25rem; } }
+      font-size: 36px; } }
   @media screen and (max-width: 991px) {
     .who-title {
       margin-top: 142px; } }
@@ -3574,7 +3577,7 @@ body {
 
 .who-text:first-child {
   margin-top: 62px;
-  margin-bottom: 30px; }
+  margin-bottom: 25px; }
   @media screen and (max-width: 767px) {
     .who-text:first-child {
       margin-top: 30px; } }
@@ -3594,7 +3597,7 @@ body {
       width: 100%;
       margin-top: 10px; } }
   .who__link:hover {
-    background-color: rgba(84, 115, 253, 0.671);
+    background-color: rgba(84, 115, 253, 0.568);
     -webkit-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out; }
@@ -3845,7 +3848,7 @@ body {
   font-size: 36px;
   font-weight: 400;
   line-height: 26px;
-  margin-top: 125px;
+  margin-top: 123px;
   letter-spacing: 0.5px; }
   @media screen and (max-width: 1199px) {
     .what-title {
@@ -3924,9 +3927,11 @@ body {
   line-height: 26px;
   text-transform: uppercase;
   text-align: center;
-  padding-top: 74px;
+  padding-top: 72px;
   letter-spacing: 2.4px;
-  padding-left: -2px !important; }
+  padding-left: -2px !important;
+  text-decoration: none;
+  display: block; }
   @media screen and (max-width: 575px) {
     .footer-title {
       padding-top: 20px; } }

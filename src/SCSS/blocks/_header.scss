@@ -1,6 +1,11 @@
 .header {
     font-family: 'Josefin Sans', sans-serif;
     background: url('../../images/header/bg_header.png') 50% 50%/cover no-repeat;
+
+    @media screen and (max-width: 575px) {
+        background: url('../../images/header/bg_header.png') 33% 50%/cover no-repeat;
+
+    }
 }
 
 .headline {
@@ -195,7 +200,7 @@
         color: white;
         display: block;
 
-        padding-bottom: 126px;
+        padding-bottom: 122px;
 
 
 
