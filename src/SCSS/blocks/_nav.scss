@@ -1,0 +1,55 @@
+.nav {
+    & {
+        font-family: 'Josefin Sans', sans-serif;
+        background-color: #5474fd;
+        height: 80px;
+    }
+
+    &__title {
+        height: 80px;
+
+    }
+
+    &-title {
+        letter-spacing: 1px;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 26px;
+        text-transform: uppercase;
+    }
+
+
+}
+
+.menu {
+    &__item {
+        letter-spacing: 0.3px;
+        padding-left: 18px;
+        padding-right: 18px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+        text-transform: uppercase;
+        font-family: 'Aleo', serif;
+        height: 80px;
+        display: block;
+        text-decoration: none;
+        color: white;
+
+        &:hover {
+            background-color: white;
+            color: #5474fd;
+            transition: background-color 0.3s ease 0s;
+            cursor: pointer;
+        }
+    }
+}
+
+
+.menu__item:first-child {
+    margin-left: 0px;
+}
+
+.menu__item:last-child {
+    padding-right: 0px;
+}

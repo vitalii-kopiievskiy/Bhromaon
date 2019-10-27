@@ -1,0 +1,35 @@
+include blocks/_header.pug
+include blocks/_nav.pug
+include blocks/_who.pug
+include blocks/_how.pug
+include blocks/_first-section.pug
+include blocks/_second-section.pug
+include blocks/_what.pug
+include blocks/_footer.pug
+
+
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title exam
+        //- link(rel="stylesheet", href="../node_modules/remodal/dist/remodal.css")
+        //- link(rel="stylesheet", href="../node_modules/remodal/dist/remodal-default-theme.css")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Aleo|Josefin+Sans:400,700&display=swap")
+        link(rel="stylesheet", href="./css/style.css")
+    body     
+        +header
+        +nav
+        +who
+        +how
+        +first-section
+        +second-section
+        +what
+        +footer
+        
+        
+        script(src="https://kit.fontawesome.com/b7ba7defb8.js" crossorigin="anonymous")
+        //- script(src="https://code.jquery.com/jquery-3.4.1.min.js")
+        //- script(src="../node_modules/remodal/dist/remodal.js")

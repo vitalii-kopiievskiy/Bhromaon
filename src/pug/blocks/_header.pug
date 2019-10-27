@@ -1,0 +1,34 @@
+mixin header
+    .header
+        .container
+            .header__headline.headline
+                .row.d-flex.flex-column.justify-content-center
+                    .col-xl-12.col-lg-12.col-md-12.col-sm-12.col-12
+                        .headline__title
+                            h1.headline-title Bhromaon
+                        .headline__subtitle
+                            p.headline-subtitle Safe Travel Anywhere    
+            .header__search.search
+                .row.d-flex.justify-content-center  
+                    .col-xl-8.col-lg-8.col-md-8.col-sm-8.col-8
+                        
+                        form(action="", method="get")
+                            .search__form.form
+                                .form__item
+                                    .form__input.d-flex
+                                        input(type="text", name="search-text", placeholder="Search Your Travel Destination").form-input   
+                                        .form__button
+                                            input(type="submit", value="search").form-button
+                                            .form__icon
+                                                    img(src="../images/header/search.svg", alt="search").form-icon               
+            .header__scroll.scroll
+                .row.d-flex.justify-content-center
+                    .col-xl-2.col-lg-8
+                        .scroll__title
+                            h2.scroll-title Scroll Down
+                        .scroll__icon
+                            i.scroll-icon.fas.fa-chevron-down
+
+                    
+
+                
