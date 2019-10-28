@@ -3117,6 +3117,9 @@ body {
   color: white;
   font-family: 'Aleo', serif; }
 
+.burger__menu {
+  margin-top: -22px; }
+
 #checkbox {
   visibility: hidden; }
 
@@ -3167,10 +3170,6 @@ body {
   background-color: rgba(255, 255, 255, 0.9);
   left: 0;
   z-index: 1; }
-
-#checkbox:checked ~ .burger-nav__list {
-  visibility: visible;
-  left: 0; }
 
 #checkbox:checked ~ .burger__button > span {
   -webkit-transform: rotate(135deg);
