@@ -3670,6 +3670,53 @@ body {
     .how__content {
       margin-top: 25px; } }
 
+.how__shape {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 448px;
+  height: 433px;
+  top: -54px;
+  left: 141px;
+  border: 1px dashed rgba(255, 255, 255, 0.5);
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  z-index: 100;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 12.8%, 0 12.8%); }
+  @media screen and (max-width: 1199px) {
+    .how__shape {
+      width: 440px;
+      height: 420px;
+      top: -46px;
+      left: 82px;
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 10%, 0 10%); } }
+  @media screen and (max-width: 992px) {
+    .how__shape {
+      width: 440px;
+      height: 420px;
+      top: -30px;
+      left: 4px;
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 5%, 0 5%); } }
+  @media screen and (max-width: 767px) {
+    .how__shape {
+      width: 440px;
+      height: 420px;
+      top: -30px;
+      left: -62px;
+      -webkit-clip-path: polygon(0 0, 100% 0, 100% 3%, 0 3%); } }
+
+.how__shape--right {
+  left: 148px; }
+  @media screen and (max-width: 1199px) {
+    .how__shape--right {
+      left: 84px; } }
+  @media screen and (max-width: 992px) {
+    .how__shape--right {
+      left: 4px; } }
+  @media screen and (max-width: 767px) {
+    .how__shape--right {
+      left: -52px; } }
+
 .how-icon {
   margin-bottom: 32px; }
 
