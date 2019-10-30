@@ -29,6 +29,7 @@
         border-top-left-radius: 50%;
         z-index: 100;
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 12.8%, 0 12.8%);
+        clip-path: polygon(0 0, 100% 0, 100% 12.8%, 0 12.8%);
 
         @media screen and (max-width: 1199px) {
             width: 440px;
