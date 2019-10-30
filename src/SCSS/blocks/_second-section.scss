@@ -73,6 +73,7 @@
         width: 225px;
         height: 60px;
         background-color: #5474fd;
+        position: relative;
 
         @media screen and (max-width: 575px) {
             width: 100%;
@@ -96,6 +97,8 @@
         text-align: center;
         display: block;
         height: 100%;
+        position: relative;
+        z-index: 2;
 
     }
 }
