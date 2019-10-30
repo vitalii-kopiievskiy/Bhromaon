@@ -13,7 +13,6 @@
 
         @media screen and (max-width: 575px) {
             margin-top: 25px;
-
         }
     }
 
@@ -39,7 +38,7 @@
             -webkit-clip-path: polygon(0 0, 100% 0, 100% 10%, 0 10%);
         }
 
-        @media screen and (max-width: 992px) {
+        @media screen and (max-width: 991px) {
             width: 440px;
             height: 420px;
             top: -30px;
@@ -64,23 +63,18 @@
             left: 84px;
         }
 
-        @media screen and (max-width: 992px) {
+        @media screen and (max-width: 991px) {
             left: 4px;
-
         }
 
         @media screen and (max-width: 767px) {
             left: -52px;
-
         }
-
     }
 
     &-icon {
         margin-bottom: 32px;
     }
-
-
 
     &-text {
         color: #e8e8e8;
@@ -91,12 +85,10 @@
 
         @media screen and (max-width: 991px) {
             font-size: 3.3vw;
-
         }
 
         @media screen and (max-width: 575px) {
             font-size: 20px;
-
         }
     }
 }

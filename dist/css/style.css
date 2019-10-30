@@ -3690,7 +3690,7 @@ body {
       top: -46px;
       left: 82px;
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 10%, 0 10%); } }
-  @media screen and (max-width: 992px) {
+  @media screen and (max-width: 991px) {
     .how__shape {
       width: 440px;
       height: 420px;
@@ -3710,7 +3710,7 @@ body {
   @media screen and (max-width: 1199px) {
     .how__shape--right {
       left: 84px; } }
-  @media screen and (max-width: 992px) {
+  @media screen and (max-width: 991px) {
     .how__shape--right {
       left: 4px; } }
   @media screen and (max-width: 767px) {
